@@ -1,0 +1,12 @@
+# IDEs
+.idea/
+
+# Build directories
+build/
+cmake-build-*/
+
+# Generated docs
+docs/out/
+
+# System files
+.DS_Store

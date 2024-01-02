@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+# Postie dependencies
+include(CMakeFindDependencyMacro)
+find_dependency(ext CONFIG REQUIRED)
+
+include("${CMAKE_CURRENT_LIST_DIR}/PostieTargets.cmake")
+
+# Aliases
+add_library(Postie::MessageSet ALIAS Postie.MessageSet)
